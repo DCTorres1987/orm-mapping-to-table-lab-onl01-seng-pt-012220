@@ -39,7 +39,7 @@ class Student
  
   end
   
-  def self.create(name, grade, id) 
+  def self.create(name) 
     student = Student.new(name, grade, id)
     student.save
     student

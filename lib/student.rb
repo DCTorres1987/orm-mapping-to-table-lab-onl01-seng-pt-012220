@@ -41,8 +41,8 @@ class Student
   
   def self.create 
     student = Student.new(name, grade)
-    song.save
-    song
+    student.save
+    student
   end
 
   # Remember, you can access your database connection anywhere in this class

@@ -40,7 +40,7 @@ class Student
   end
   
   def self.create(name) 
-    student = Student.new(name, id)
+    student = Student.new(name)
     student.save
     student
   end
